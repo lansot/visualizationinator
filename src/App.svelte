@@ -48,7 +48,7 @@
 		</div>
 
 		{#if chosenKey}
-			<Chart {observationData} bind:chosenKey />
+			<Chart {observationData} {chosenKey} />
 		{/if}
 
 		<div id="miscText">
