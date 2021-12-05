@@ -20,7 +20,7 @@ app.listen(port, () => {
 /**
  * 
  * @param {string} inputFile The path to the file containing data to be processed.
- * @returns An array of objects representing each row of data.
+ * @returns An object containing an array of objects representing each observation, and miscellaneous text that comes after the data
  * @description Note that the way this function currently works is very specific to metocean.txt's structure.
  */
 function processFile(inputFile) {
